@@ -14,8 +14,8 @@ let b = 4;
 let c = 5;
 let a = b**2 + c**2;
 let x = Math.sqrt(Math.round(a));
-
-console.log(x);
+let y =  x.toFixed(2)
+console.log(y);
 
 
 
