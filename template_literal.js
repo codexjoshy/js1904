@@ -8,3 +8,13 @@ let furtherDescription = "I also love to write codes in <strong> Javascript </st
 
 
 document.write(`<h1>Composition</h1>\n My name is${name}, I live in  No ${strretNo} ${streetName},${State}. I'm ${age} years old. ${food} \n ${furtherDescription}`);
+ alert("Hello World");
+   let a = 4**2;
+   let b = 6**2;
+   let hyp;
+   let whole;
+   let fixed;
+   hyp = Math.sqrt(a + b);
+   whole = Math.round(hyp);
+   fixed = hyp.toFixed(2);
+   console.log(hyp, whole, fixed);
