@@ -65,11 +65,11 @@ function sayName(a){
 let division = ()=>{
 
 }
-let multiply = (num2, num3)=>{
+let multiplyBy10 = (num2, num3 =10)=>{
     return num2 * num3;
 }
 
-// console.log(multiply(10, 20));
+console.log(multiplyBy10(2000));
 multiply = 5;
 
 let modulus = (num1, num2)=>num2%num1;
@@ -85,6 +85,7 @@ let alertName = (name)=>{
     alert(name);
     sayAnyName('ayo');
 }
+
 
 
 
